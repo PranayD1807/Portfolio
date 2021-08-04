@@ -1,0 +1,104 @@
+#projects h2{
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    background-color: #00000052;
+    border-top: 3px solid rgb(116, 116, 116);
+    border-bottom: 3px solid rgb(85, 84, 84);
+}
+/* Grid */
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+
+}
+.gridbox{
+    background-color: rebeccapurple;
+    height: 15rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    perspective: 1000px;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    border: 2px solid white;
+}
+.gridbox .img{
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.gridbox img{
+    height: 15rem;
+    width: 20rem;
+    border-radius: 15px;
+}
+
+.gridbox .topic_name {
+    position: absolute;
+    bottom: 20%;
+    display: block;
+    color: wheat;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    z-index: 2;
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 1s;
+
+
+}
+.hidden{
+    display: flex;
+    /* flex-direction: column; */
+    position: absolute;
+    top: 55%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.gridbox a {
+    display: block;
+    font-size: 0rem;
+    text-decoration: none;
+    color: wheat;
+    text-align: center;
+    background-color: transparent;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 1s;
+    /* position: absolute; */
+}
+.gridbox:hover a{
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.gridbox:hover .topic_name{
+    bottom: 50%;
+}
+/* images */
+#project1img{
+    background-image: url("../images/projects/img1.jpeg");
+    background-size: cover;
+}
+#project2img{
+    background-image: url("../images/projects/img2.jpeg");
+    background-size: cover;
+}
+#project3img{
+    background-image: url("../images/projects/img3.jpeg");
+    background-size: cover;
+}
+#project4img{
+    background-image: url("../images/projects/img4.png");
+    background-size: cover;
+}

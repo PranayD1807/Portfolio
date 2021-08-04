@@ -1,0 +1,13 @@
+#achievements{
+    height: 60vh;
+    background-color: aliceblue;
+    margin: 2rem 0px;
+}
+#achievements h2{
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    background-color: #837f7fbe;
+}

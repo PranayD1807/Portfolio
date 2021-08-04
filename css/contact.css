@@ -1,0 +1,81 @@
+#contact{
+    background: url("../images/conUs_back.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#contact h2{
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    background-color: #000000bb;
+    border-top: 3px solid rgb(116, 116, 116);
+    border-bottom: 3px solid rgb(85, 84, 84);
+
+}
+#backimg{
+    height: 75vh;
+    width: 100vw;
+    /* background: url("../images/conUs_back.jpg");
+    background-size: cover;
+    background-position: center center; */
+}
+.holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+.holder a{
+    text-decoration: none;
+}
+#links{
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+}
+
+/* Gmail */
+#gmail{
+    display: flex;
+    color: rgb(255, 255, 255);
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 3px solid white;
+}
+
+.holder img{
+    height: 75px;
+    margin: 1rem;
+    margin-bottom: 0px;
+    
+}
+#gmail img{
+    margin-bottom: 1rem;
+}
+#gmail h3, #gmail h4{
+    font-size: 2rem;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+
+}
+#links a{
+    color: white;
+}
+#links h3{
+    margin-top: 5px;
+}

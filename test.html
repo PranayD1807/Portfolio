@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #intro {
+            height: 85vh;
+            background-color: black;
+            background-image: url("../images/1532.jpg");
+            background-size: cover;
+            font-family: 'Josefin Sans', sans-serif;
+            background-position: center center;
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* flex-direction: column; */
+        }
+
+        #intro #hello {
+            color: white;
+            font-size: 5rem;
+            position: relative;
+            top: 55%;
+            left: 4%;
+        }
+
+        #intro .intro_name {
+            display: flex;
+            color: white;
+            position: relative;
+            top: 60%;
+            left: 4%;
+        }
+
+        #intro .intro_name h3,
+        #intro .intro_name h2 {
+            font-size: 4rem;
+            margin: 5px;
+
+        }
+
+        #intro .intro_name ul {
+            padding: 10px;
+            margin: 0%;
+            height: 4rem;
+            overflow: hidden;
+        }
+        
+        #intro .intro_name li {
+            /* display: block; */
+            list-style: none;
+            margin: 0%;
+            padding: 0%;
+            -webkit-animation-name: change;
+            -webkit-animation-duration: 8s;
+            -webkit-animation-iteration-count: infinite;
+            animation-name: change;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes change{
+            0%, 100%{
+                transform: translateY(0%);
+            }
+            14.2%, 85.2%{
+                transform: translateY(-125%);
+            }
+            28.4%, 71%{
+                transform: translateY(-225%);
+            }
+            42.6%, 56.8%{
+                transform: translateY(-325%);
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="intro">
+        <h2 id="hello">Hello!</h2>
+        <div class="intro_name">
+            <h3>I am </h3>
+            <ul>
+                <li>
+                    <h2>PRANAY DHONGADE</h2>
+                </li>
+                <li>
+                    <h2>A Developer</h2>
+                </li>
+                <li>
+                    <h2>A Gamer</h2>
+                </li>
+                <li>
+                    <h2>A Student</h2>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
