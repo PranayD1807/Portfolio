@@ -1,0 +1,263 @@
+#skills{
+    height: 60vh;
+    /* background-color: rgb(53, 53, 53); */
+    margin: 2rem 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+#skills h2{
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top: 3px solid rgb(116, 116, 116);
+    border-bottom: 3px solid rgb(85, 84, 84);
+    margin-bottom: 20px;
+}
+#skills .container{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/skill.jpg");
+    background-size: cover;
+    background-position: center center;
+
+}
+#skills .container .inner_con{
+    height: 100%;
+    width: 48%;
+    margin: 5px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#skills .skill_br{
+    /* border: 2px solid black; */
+    height: 30%;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background-color: #00000087;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 0px 2rem;
+    border-radius: 10px;
+}
+#skills .skill_br h3{
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+#skills .skill_br .full_bar{
+    width: 60%;
+    height: 30%;
+    border: 2px solid white;
+    margin: 0% 10px;
+    overflow: hidden;
+    box-shadow: none;
+    border-radius: 5px;
+
+}
+/* problem solving */
+#skills .skill_br .full_bar #psbar{
+    width: 40%;
+    background-color: white;
+    height: 100%;
+    /* z-index: 1; */
+    -webkit-animation-name: psbar;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: psbar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@-webkit-keyframes psbar{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 40%;
+    }
+}
+@keyframes psbar{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 40%;
+    }
+}
+/* C */
+#skills .skill_br .full_bar #cbar{
+    width: 95%;
+    background-color: whitesmoke;
+    height: 100%;
+    -webkit-animation-name: cbar;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: cbar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* z-index: 1; */
+
+}
+@-webkit-keyframes cbar{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 80%;
+    }
+}
+@keyframes cbar{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 80%;
+    }
+}
+/* Python */
+#skills .skill_br .full_bar #pythonbar{
+    width: 10%;
+    background-color: whitesmoke;
+    height: 100%;
+    -webkit-animation-name: pythonbar;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: pythonbar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes pythonbar{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 10%;
+    }
+}
+@keyframes pythonbar{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 10%;
+    }
+}
+/* Html + Css */
+#skills .skill_br .full_bar #htmlcss{
+    width: 10%;
+    background-color: whitesmoke;
+    height: 100%;
+    -webkit-animation-name: htmlcss;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: htmlcss;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes htmlcss{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 95%;
+    }
+}
+@keyframes htmlcss{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 95%;
+    }
+}
+/* Javascript */
+#skills .skill_br .full_bar #js{
+    width: 30%;
+    background-color: whitesmoke;
+    height: 100%;
+    -webkit-animation-name: js;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: js;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes js{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 30%;
+    }
+}
+@keyframes js{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 30%;
+    }
+}
+/* Flutter + Dart */
+#skills .skill_br .full_bar #flutter{
+    width: 70%;
+    background-color: whitesmoke;
+    height: 100%;
+    -webkit-animation-name: flutter;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: flutter;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes flutter{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 70%;
+    }
+}
+@keyframes flutter{
+    0%, 100%{
+        width: 0%;
+    }
+    20%, 80%{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:720px){
+    #skills .container{
+        flex-direction: column;
+        
+    }
+    #skills{
+        height: fit-content;
+        margin: 10px 0px;
+    }
+    #skills .container .inner_con{
+        width: 100%;
+    }
+    #skills .skill_br{
+        padding: 0px 1rem;
+    }
+    #skills .skill_br h3{
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+    #skills .skill_br .full_bar{
+        width: 50%;
+        height: 10px;
+    }
+}
