@@ -110,3 +110,38 @@
     background-size: cover;
     background-position: center;
 }
+@media only screen and (max-width:780px){
+    #info{
+        flex-direction: column;
+        height: fit-content;
+    }
+    #myimage{
+        width: 100%;
+    }
+    .pic{
+        height: 15vh;  
+        width: 15vw;
+        transition-duration: 1s;
+    }
+    .pic:hover{
+        width: 25vw;
+    }
+    .pics{
+        width: 15vw;
+        /* border: 2px solid black; */
+        margin: 3px;
+       
+        overflow: hidden;
+        transition-duration: 1s;
+    }
+    .pics:hover{
+        overflow: visible;
+        z-index: 1;
+        width: 25vw;
+    }
+    #myinfo{
+        font-size: 1rem;
+        width: 95%;
+    }
+    
+}

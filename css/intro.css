@@ -101,3 +101,81 @@
 
     }
 }
+
+@media only screen and (max-width:1080px) and (min-width:720px) {
+    #intro .intro_name h3,
+    #intro .intro_name h2 {
+        font-size: 3rem;
+        margin: 0%;
+    }
+    #intro .intro_name ul{
+        height: 3rem;
+    }
+    #intro .intro_name ul li{
+        margin: 0%;
+    }
+    @-webkit-keyframes change {
+        0%, 100%{
+            transform: translateY(0%);
+        }
+        14.2%, 85.2%{
+            transform: translateY(-100%);
+        }
+        28.4%, 71%{
+            transform: translateY(-200%);
+        }
+        42.6%, 56.8%{
+            transform: translateY(-300%);
+        }
+    }
+    @keyframes change{
+        0%, 100%{
+            transform: translateY(0%);
+        }
+        14.2%, 85.2%{
+            transform: translateY(-110%);
+        }
+        28.4%, 71%{
+            transform: translateY(-215%);
+        }
+        42.6%, 56.8%{
+            transform: translateY(-318%);
+        }
+        
+    }
+}
+@media only screen and (max-width:710px){
+    #arrow img{
+        display: none;
+    }
+    #intro{
+        height: 50vh;
+    }
+    #intro #hello{
+        font-size: 3rem;
+    }
+    #intro .intro_name h3,
+    #intro .intro_name h2 {
+        font-size: 1.5rem;
+        /* margin: 0%; */
+    }
+    #intro .intro_name ul {
+        padding: 0px;
+        margin: 0%;
+        height: 2rem;
+        /* overflow: hidden; */
+    }
+    
+    @-webkit-keyframes change {
+        0%, 100%{
+            transform: translateY(0%);
+        }
+        
+    }
+    @keyframes change{
+        0%, 100%{
+            transform: translateY(0%);
+        }
+        
+    }
+}
