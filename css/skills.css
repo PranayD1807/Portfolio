@@ -67,8 +67,33 @@
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     overflow: hidden;
+    border-right: 1px solid whitesmoke;
+/* 
+    -webkit-animation-name: bleep;
+    animation-name: bleep;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 
 }
+/* @-webkit-keyframes bleep{
+    0%, 100%{
+        border-right: none;
+    }
+    50%{
+        border-right: 1px solid whitesmoke;
+    }
+
+}
+@keyframes bleep {
+    0%, 100%{
+        border-right: none;
+    }
+    50%{
+        border-right: 1px solid whitesmoke;
+    }
+} */
 @-webkit-keyframes effect{
     0%, 100%{
         width: 0%;
@@ -78,14 +103,21 @@
     }
 
 }
-@keyframes effect {
+@keyframes effect{
     0%, 100%{
         width: 0%;
     }
     50%{
         width: 100%;
     }
+    12.5%, 25%, 37.5%, 50%, 62.5%, 75%, 87.5%{
+        border-right: 1px solid whitesmoke;
+    }  
+    6.25%, 18.75%, 31.25%, 43.75%, 56.5%, 68.75%, 81.5%, 93.75%{
+        border-right: none;
+    }
 }
+
 @media only screen and (max-width:720px){
     
     #skills{
