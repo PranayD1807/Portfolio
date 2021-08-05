@@ -101,6 +101,12 @@
     50%{
         width: 100%;
     }
+    12.5%, 25%, 37.5%, 50%, 62.5%, 75%, 87.5%{
+        border-right: 1px solid whitesmoke;
+    }  
+    6.25%, 18.75%, 31.25%, 43.75%, 56.5%, 68.75%, 81.5%, 93.75%{
+        border-right: 1px solid transparent;
+    }
 
 }
 @keyframes effect{
@@ -114,7 +120,7 @@
         border-right: 1px solid whitesmoke;
     }  
     6.25%, 18.75%, 31.25%, 43.75%, 56.5%, 68.75%, 81.5%, 93.75%{
-        border-right: none;
+        border-right: 1px solid transparent;
     }
 }
 
