@@ -1,0 +1,31 @@
+
+@media only screen and (min-width:790px){
+    #vertical_nav{
+        display: none;
+    }
+}
+@media only screen and (max-width:780px){
+    #vertical_nav{
+        display: sticky;
+        background-color: whitesmoke;
+        font-family: 'Josefin Sans', sans-serif;
+
+    }
+    #vertical_nav #innerVerUL{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0px;
+
+    }
+    #vertical_nav #innerVerUL .innerverli a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin: 2px;
+        padding: 10px 3px;
+        font-size: 15px;
+        /* border-right: 1px solid black; */
+    }
+    
+}

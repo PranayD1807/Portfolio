@@ -70,3 +70,14 @@
     margin: 10px 20px;
     text-shadow: 4px 4px 9px black;    
 }
+@media only screen and (max-width:780px){
+    #navbar ul .outerli{
+        display: none;
+    }
+    .name{
+        margin: 10px;
+    }
+    #navbar{
+        position: static;
+    }
+}

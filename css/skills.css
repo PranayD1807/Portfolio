@@ -244,6 +244,7 @@
     }
     #skills{
         height: fit-content;
+        margin: 10px 0px;
     }
     #skills .container .inner_con{
         width: 100%;
