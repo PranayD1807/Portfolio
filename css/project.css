@@ -102,3 +102,13 @@
     background-image: url("../images/projects/img4.png");
     background-size: cover;
 }
+.gridbox .flip .type{
+    font-size: 1rem;
+    color: black;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

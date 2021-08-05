@@ -1,0 +1,49 @@
+#hobbies{
+    height: 60vh;
+    /* background-color: aliceblue; */
+    margin: 4rem 0px;
+    
+}
+#hobbies h2{
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    background-color: #272626be;
+    margin-bottom: 10px;
+
+}
+#hobbies .container{
+    height: 90%;
+    width: 100%;
+    background-image: url("../images/ach.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#hobbies .container .honor{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 15px;
+}
+#hobbies .container .honor img{
+    height: 200px;
+    margin: 1rem;
+    border: 3px solid white;
+    border-radius: 15px;
+
+}
+#hobbies .container .honor h2{
+    color: #44019a;
+    font-size: 2rem;
+    border-radius: 15px;
+    margin: 0px 1rem 1rem 1rem;
+    background-color: whitesmoke;
+}

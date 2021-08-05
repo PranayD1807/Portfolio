@@ -1,7 +1,9 @@
 #contact{
-    background: url("../images/conUs_back.jpg");
+    /* background: url("../images/conUs_back.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
+    margin: 4rem 0px 0px 0px;
+
 }
 #contact h2{
     color: whitesmoke;
@@ -12,14 +14,17 @@
     background-color: #000000bb;
     border-top: 3px solid rgb(116, 116, 116);
     border-bottom: 3px solid rgb(85, 84, 84);
-
+    position: relative;
+    top: 0px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.32);
 }
 #backimg{
     height: 75vh;
     width: 100vw;
-    /* background: url("../images/conUs_back.jpg");
+    background: url("../images/conUs_back.jpg");
     background-size: cover;
-    background-position: center center; */
+    background-position: center center;
 }
 .holder{
     display: flex;
@@ -78,4 +83,12 @@
 }
 #links h3{
     margin-top: 5px;
+}
+#contact .text{
+    position: relative;
+    top: 41%;
+    text-align: center;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 5px;
 }

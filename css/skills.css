@@ -1,11 +1,9 @@
 #skills{
     height: 60vh;
-    background-color: rgb(53, 53, 53);
+    /* background-color: rgb(53, 53, 53); */
     margin: 2rem 0px;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url("../images/skill.jpg");
-    background-size: cover;
-    background-position: center center;
+    
 
 }
 #skills h2{
@@ -14,9 +12,10 @@
     text-align: center;
     font-size: 3rem;
     padding: 20px;
-    background-color: #000000be;
+    background-color: rgba(0, 0, 0, 0.4);
     border-top: 3px solid rgb(116, 116, 116);
     border-bottom: 3px solid rgb(85, 84, 84);
+    margin-bottom: 20px;
 }
 #skills .container{
     height: 85%;
@@ -24,6 +23,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/skill.jpg");
+    background-size: cover;
+    background-position: center center;
+
 }
 #skills .container .inner_con{
     height: 100%;
@@ -40,8 +43,12 @@
     height: 30%;
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 90%;
+    background-color: #00000087;
     justify-content: space-between;
+    margin: 5px;
+    padding: 0px 2rem;
+    border-radius: 10px;
 }
 #skills .skill_br h3{
     font-size: 1.6rem;
