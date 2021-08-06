@@ -68,32 +68,10 @@
     animation-iteration-count: infinite;
     overflow: hidden;
     border-right: 1px solid whitesmoke;
-/* 
-    -webkit-animation-name: bleep;
-    animation-name: bleep;
-    -webkit-animation-duration: 0.5s;
-    animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite; */
+
 
 }
-/* @-webkit-keyframes bleep{
-    0%, 100%{
-        border-right: none;
-    }
-    50%{
-        border-right: 1px solid whitesmoke;
-    }
 
-}
-@keyframes bleep {
-    0%, 100%{
-        border-right: none;
-    }
-    50%{
-        border-right: 1px solid whitesmoke;
-    }
-} */
 @-webkit-keyframes effect{
     0%, 100%{
         width: 0%;
@@ -137,6 +115,7 @@
     #skills .skill_br h3{
         padding: 10px 0px;
         font-size: 15px;
+        margin: 5px;
     }
     #skills .skill_br img {
         height: 50px;
