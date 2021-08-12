@@ -89,22 +89,31 @@
 #project1img{
     background-image: url("../images/projects/img1.jpeg");
     background-size: cover;
+    background-position: center center;
 }
 #project2img{
     background-image: url("../images/projects/img2.jpeg");
     background-size: cover;
+    background-position: center center;
+
 }
 #project3img{
     background-image: url("../images/projects/img3.jpeg");
     background-size: cover;
+    background-position: center center;
+
 }
 #project4img{
     background-image: url("../images/projects/img4.png");
     background-size: cover;
+    background-position: center center;
+
 }
 #project5img{
     background-image: url("../images/projects/img5.png");
     background-size: cover;
+    background-position: center center;
+
 }
 
 .gridbox .flip .type{
