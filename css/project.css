@@ -102,6 +102,11 @@
     background-image: url("../images/projects/img4.png");
     background-size: cover;
 }
+#project5img{
+    background-image: url("../images/projects/img5.png");
+    background-size: cover;
+}
+
 .gridbox .flip .type{
     font-size: 1rem;
     color: black;
