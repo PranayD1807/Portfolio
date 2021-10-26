@@ -115,6 +115,12 @@
     background-position: center center;
 
 }
+#project6img{
+    background-image: url("../images/projects/img6.png");
+    background-size: cover;
+    background-position: center center;
+
+}
 
 .gridbox .flip .type{
     font-size: 1rem;
