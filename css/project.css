@@ -121,6 +121,18 @@
     background-position: center center;
 
 }
+#project7img{
+    background-image: url("../images/projects/img7.jpg");
+    background-size: cover;
+    background-position: center center;
+
+}
+#project8img{
+    background-image: url("../images/projects/img8.png");
+    background-size: cover;
+    background-position: center center;
+
+}
 
 .gridbox .flip .type{
     font-size: 1rem;
