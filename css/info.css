@@ -1,150 +1,144 @@
-#info{
-    display: flex;
-    height: 70vh;
-    align-items: center;
-    padding: 2vh 2vh;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-    margin: 5vh 0px;
-    background-color: blanchedalmond;
-    /* font-weight: bold; */
-    
-    background-color: #e3efe8;
-    /* background-image: linear-gradient(63deg, #e0e8e3 0%, #898b8e 74%) */
-    /* image */
-    background-image: url("../images/1567846.jpg");
-    background-size: cover;
-    
-}
-#myimage{
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#gallery{
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Josefin Sans', sans-serif;
-    padding: 10px;
-    color: #7f2709;
-    background-image: linear-gradient(63deg, #b10202 0%, #0144a7 74%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-#myinfo{
-    width: 48%;
-    font-size: 2rem;
-    padding: 20px;
-    color: black;
-    background-image: linear-gradient(234deg, #8e0202 0%, #012c6b 74%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-#myinfo li{
-    /* display: block; */
-    margin: 5px;
-    margin-left: 10%;
-    list-style-type: circle;
-    
-}
+#info {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  padding: 2vh 2vh;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 5vh 0px;
+  background-color: blanchedalmond;
+  /* font-weight: bold; */
 
+  background-color: #e3efe8;
+  /* background-image: linear-gradient(63deg, #e0e8e3 0%, #898b8e 74%) */
+  /* image */
+  background-image: url("../images/1567846.jpg");
+  background-size: cover;
+}
+#myimage {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#gallery {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  color: #7f2709;
+  background-image: linear-gradient(63deg, #b10202 0%, #0144a7 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#myinfo {
+  width: 48%;
+  font-size: 2rem;
+  padding: 20px;
+  color: black;
+  background-image: linear-gradient(234deg, #8e0202 0%, #012c6b 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#myinfo li {
+  /* display: block; */
+  margin: 5px;
+  margin-left: 10%;
+  list-style-type: circle;
+}
 
 /* Images */
-#show{
-    display: flex;
-    width: fit-content;
-    border: 5px solid gray;
-    padding: 5px;
+#show {
+  display: flex;
+  width: fit-content;
+  border: 5px solid gray;
+  padding: 5px;
 }
-.pic{
-    height: 40vh;  
-    width: 8vw;
-    transition-duration: 1s;
+.pic {
+  height: 40vh;
+  width: 8vw;
+  transition-duration: 1s;
 }
-.pic:hover{
+.pic:hover {
+  width: 15vw;
+}
+.pics {
+  width: 8vw;
+  /* border: 2px solid black; */
+  margin: 3px;
+
+  overflow: hidden;
+  transition-duration: 1s;
+}
+.pics:hover {
+  overflow: visible;
+  z-index: 1;
+  width: 15vw;
+}
+#img1 {
+  background: url("../images/custom/img6.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#img2 {
+  background: url("../images/custom/img2.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+#img3 {
+  background: url("../images/custom/img3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img4 {
+  background: url("../images/custom/img4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#img5 {
+  background: url("../images/custom/img5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#img6 {
+  background: url("../images/custom/img6.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  #info {
+    flex-direction: column;
+    height: fit-content;
+    margin: 0%;
+    margin-top: 10px;
+  }
+  #myimage {
+    width: 100%;
+  }
+  .pic {
+    height: 15vh;
     width: 15vw;
-}
-.pics{
-    width: 8vw;
+    transition-duration: 1s;
+  }
+  .pic:hover {
+    width: 25vw;
+  }
+  .pics {
+    width: 15vw;
     /* border: 2px solid black; */
     margin: 3px;
-   
+
     overflow: hidden;
     transition-duration: 1s;
-}
-.pics:hover{
+  }
+  .pics:hover {
     overflow: visible;
     z-index: 1;
-    width: 15vw;
-}
-#img1{
-    background: url("../images/custom/img6.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-#img2{
-    background: url("../images/custom/img2.jpeg");
-    background-position: center;
-    background-size: cover;
-}
-#img3{
-    background: url("../images/custom/img3.jpg");
-    background-size: cover;
-    background-position: center;
-
-}
-#img4{
-    background: url("../images/custom/img4.jpeg");
-    background-position: center;
-    background-size: cover;
-}
-#img5{
-    background: url("../images/custom/img5.jpeg");
-    background-position: center;
-    background-size: cover;
-}
-#img6{
-    background: url("../images/custom/img6.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-@media only screen and (max-width:1025px){
-    #info{
-        flex-direction: column;
-        height: fit-content;
-        margin: 0%;
-        margin-top: 10px;
-
-    }
-    #myimage{
-        width: 100%;
-    }
-    .pic{
-        height: 15vh;  
-        width: 15vw;
-        transition-duration: 1s;
-    }
-    .pic:hover{
-        width: 25vw;
-    }
-    .pics{
-        width: 15vw;
-        /* border: 2px solid black; */
-        margin: 3px;
-       
-        overflow: hidden;
-        transition-duration: 1s;
-    }
-    .pics:hover{
-        overflow: visible;
-        z-index: 1;
-        width: 25vw;
-    }
-    #myinfo{
-        font-size: 1rem;
-        width: 95%;
-    }
-    
+    width: 25vw;
+  }
+  #myinfo {
+    font-size: 1rem;
+    width: 95%;
+  }
 }
